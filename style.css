@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+*{
+    padding: 0rem;
+    margin: 0rem;
+}
+
+:root{
+    --fonte1: verdana, Geneva, tahoma, sans-serif;
+    --fonte2: "Passion One", sans-serif;
+}
+
+html,body{
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte1);
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    padding: 4.3rem 0rem;
+
+}
+
+header h1{
+    color: white;
+    font-size: 7rem;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-family: var(--fonte2);
+    font-size: 10vw;
+}
+header p{
+    color: white;
+    font-weight: bolder;
+}
+header a, footer a{
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 3.5rem;
+    padding-left: 2rem;
+    font-size: 3.5vw;
+    
+    
+}
+
+.normal{
+    background-color: white;
+}
+
+section p{
+    padding-bottom: 2em;
+}
+
+.imagem{
+    color: white;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.423);
+    background-attachment: fixed;
+    
+}
+
+.imagem p{
+    background-color: rgba(0, 0, 0, 0.454);
+    display: inline-block;
+    padding: 1rem;
+    text-shadow: 1px 1px 0px black;
+    
+    
+}
+
+section#joana{
+    background-image: url("imagens/joana.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+section#livro{
+    background-image: url("imagens/livro.jpg");
+    background-repeat: no-repeat;
+    background-position: center right;
+    
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+footer a{
+    font-weight: bolder;
+}
